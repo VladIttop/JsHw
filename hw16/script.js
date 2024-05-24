@@ -138,3 +138,35 @@ const calculateTotalPrice = function (allProdcuts, productName) {
 console.log(calculateTotalPrice(products1, "Радар")); // 5200
 
 console.log(calculateTotalPrice(products1, "Дроїд")); // 2800
+
+//! 17
+
+const { hobby, premium } = user;
+
+console.log(hobby);
+
+const { name, age, isAdmin } = count;
+
+console.log(name, age, isAdmin);
+
+// const workers = {
+//   Vlad: 10,
+//   Max: 15,
+//   Zlata: 30,
+// };
+
+const { vlad, max, zlata } = workers;
+
+// const products = [
+//   { name: "Радар", price: 1300, quantity: 4 },
+//   { name: "Сканер", price: 2700, quantity: 3 },
+//   { name: "Дроїд", price: 400, quantity: 7 },
+//   { name: "Захоплення", price: 1200, quantity: 2 },
+// ];
+
+const [
+  { name: itemName, price: itemPrice, quantity: itemQuantity },
+  { name: itemName1, price: itemPrice1, quantity: itemQuantity1 },
+  { name: itemName2, price: itemPrice2, quantity: itemQuantity2 },
+  { name: itemName3, price: itemPrice3, quantity: itemQuantity3 },
+] = products;
