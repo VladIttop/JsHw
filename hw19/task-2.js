@@ -1,0 +1,35 @@
+"use strict";
+// Напиши клас User для створення користувача з наступними властивостями:
+
+// name — рядок
+// age — число
+// followers — число
+
+// Добав метод getInfo(), який, виводить рядок: User ${ім'я} is ${вік} years old and has ${кількість фоловерів} followers
+
+class User {
+  constructor(params) {
+    this.name = params.name;
+    this.age = params.age;
+    this.followers = params.followers;
+  }
+
+ getInfo() {
+    return `User ${this.name} is ${this.age} years old and has ${this.followers} followers`;
+  }
+}
+
+const mango = new User({
+  name: "Mango",
+  age: 2,
+  followers: 20,
+});
+
+console.log(mango.getInfo()); // User Mango is 2 years old and has 20 followers
+
+const poly = new User({
+  name: "Poly",
+  age: 3,
+  followers: 17,
+});
+console.log(poly.getInfo()); // User Poly is 3 years old and has 17 followers
