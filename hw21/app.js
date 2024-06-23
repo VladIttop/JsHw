@@ -99,6 +99,10 @@ closingBtn.addEventListener("click", () => {
   btnClose()
 });
 
+lightbox.addEventListener("click", () => {
+  btnClose();
+})
+
 document.addEventListener("keydown", event => {
   if (event.key === "Escape") {
     btnClose()
