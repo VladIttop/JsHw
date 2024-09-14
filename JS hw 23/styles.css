@@ -1,0 +1,16 @@
+img {
+  height: 200px;
+  background-color: #f0f0f0;
+  width: 300px;
+}
+
+body {
+  margin-top: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 500px;
+}
+
+.visible {
+  transition: height 0.3s linear;
+}
