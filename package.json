@@ -1,0 +1,16 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "DESCRIPTION",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js",
+    "start": "node main.js",
+    "dev": "node main.js"
+  },
+  "author": "VLAD",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
