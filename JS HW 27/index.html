@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="backdrop">
+    <!-- ! Завдяння 1 -->
+    <h2>Завдяння 1</h2>
+    <div class="div">
+      <input type="text" id="taskInput" />
+      <button type="btn" id="btn">+</button>
+      <ul id="list"></ul>
+    </div>
+
+    <!-- ! Завдяння 2 -->
+    <h2>Завдяння 2</h2>
+    <input type="text" id="textInput" />
+    <button type="button" id="btnSave">Зберегти</button>
+
+    <!-- ! Завдяння 4 -->
+    <h2>Контакти:</h2>
+    <input type="text" placeholder="Ім`я:" id="userName" />
+    <input type="text" placeholder="Прізвище:" id="userSurname" />
+    <input type="number" placeholder="Номер телефону:" id="userNumber" />
+    <input type="email" placeholder="Емейл:" id="userEmail" />
+    <button type="button" id="contactSave">Зберегти контакти</button>
+    <ul id="userList"></ul>
+
+    <!-- ! Завдяння 3 -->
+    <input type="text" id="bookmark" placeholder="Добавте закладку" />
+    <button type="button" id="addBookMark">Добавити</button>
+    <ul
+      id="allBookMarks"
+      style="display: flex; flex-direction: column; column-gap: 5px"
+    ></ul>
+    <script src="./script.js"></script>
+  </body>
+</html>
